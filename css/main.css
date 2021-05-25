@@ -1,0 +1,45 @@
+body{
+    background-color: chocolate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+header {
+    display: iline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    background-color: red;
+}
+
+img {
+    float: left;
+}
+
+nav {
+
+}
+
+a {
+    color: red;
+}
+
+.melinas-tagas {
+    color:blue;
+}
+
+
+ main {
+     display: inline-block;
+     width:880px;
+     margin-left:calc(50% -400px);
+ }
+
+ div {
+     width: 50%;
+     float: left;
+ }
+
+ h1 {
+
+ }
