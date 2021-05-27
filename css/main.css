@@ -1,45 +1,74 @@
-body{
-    background-color: chocolate;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:#f8f8f8;
+    font-family: inherit;
 }
-
-
-
 header {
-    display: iline-block;
-    width: 800px;
-    margin-left: calc(50% - 400px);
-    background-color: red;
-}
-
-img {
-    float: left;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    height: 60px;
 }
 
 nav {
-
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 700px;
 }
 
-a {
-    color: red;
+.header-nav-button-list > a {
+    display: flex;
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b9b8b8;
+    text-decoration: none;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
 }
 
-.melinas-tagas {
-    color:blue;
+.header-nav-button-list > a:last-child {
+    display: flex;
+    color: #b9b8b8;
+    font-size: 17px;
+    border:3px solid ;
+    border-radius:20px;
+    text-emphasis: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
 }
-
 
  main {
-     display: inline-block;
-     width:880px;
-     margin-left:calc(50% -400px);
+     display:flex;
+     width: 100%;
+     height: 100%;
  }
 
  div {
-     width: 50%;
-     float: left;
+     width: 20%;
+     display: flex;
+     flex-direction: column;
+     padding: 40px;
+     font-size: 30px;
+     background-color:#f8f8f8;
  }
 
  h1 {
-
+font-size: 95px;
  }
+
+ 
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 150px;
+    color: #b9b8b8;
+    font-family: monospace;
+    align-items: center;
+    height: 400px;
+}
